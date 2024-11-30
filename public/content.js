@@ -66,7 +66,7 @@ function createFeedbackPanel() {
       align-items: center;
       font-size: 20px;
     `;
-    iconContainer.innerHTML = '🤖';
+    iconContainer.innerHTML = `<img src="${chrome.runtime.getURL("icon48.png")}" alt="icon" style="width: 48px; height: 48px;">`;
     
     iconContainer.onmouseover = () => {
       iconContainer.style.transform = 'translateY(-50%) scale(1.1)';
@@ -215,8 +215,7 @@ function displayLoading() {
       text-align: center;
     `;
     loadingDiv.innerHTML = `
-      <div style="margin-bottom: 8px;">🤖 The AI helper is analysing, please wait...</div>
-      <div style="display: inline-block; animation: spin 2s linear infinite;">⚙️</div>
+      <div style="margin-bottom: 8px;"> The AI helper is analysing, please wait...</div>
     `;
     content.innerHTML = '';
     content.appendChild(loadingDiv);

@@ -24,6 +24,12 @@
       "128": "icon128.png"
     },
     "default_title": "Git Review Helper"
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icon48.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
   
