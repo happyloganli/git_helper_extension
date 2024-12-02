@@ -11,8 +11,7 @@ This extension supports Chrome AI or custom AI. For Chrome AI, please refer to C
 
 ### Chrome extension setup
 If you want to test this extension locally, you can follow these steps:
-1. Run command `npm run build`
-2. In your chrome browser, oper `chrome://extensions`. Switch on developer mode, choose `Load Unpacked`, and choose `dist` directory of this project.
+1. In your chrome browser, oper `chrome://extensions`. Switch on developer mode, choose `Load Unpacked`, and choose this project folder.
    
 ### Custom AI Setting
 
