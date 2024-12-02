@@ -10,7 +10,8 @@
   ],
   "content_scripts": [{
     "matches": ["https://github.com/*"],
-    "js": ["content.js"]
+    "css": ["styles.css"],
+    "js": ["utils.js","content.js"]
   }],
   "icons": {
     "16": "icon16.png",
